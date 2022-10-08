@@ -1,0 +1,307 @@
+{
+    "header": {
+        "process_time": 0,
+        "messages": "Your request has been processed successfully"
+    },
+    "data": {
+        "category_id": 3412,
+        "variant_id_combinations": [
+            [
+                1
+            ],
+            [
+                29
+            ]
+        ],
+        "variant_details": [
+            {
+                "variant_id": 1,
+                "has_unit": 0,
+                "identifier": "colour",
+                "name": "Warna",
+                "status": 2,
+                "units": [
+                    {
+                        "variant_unit_id": 0,
+                        "status": 1,
+                        "unit_name": "",
+                        "unit_short_name": "",
+                        "unit_values": [
+                            {
+                                "variant_unit_value_id": 1,
+                                "status": 1,
+                                "value": "Putih",
+                                "equivalent_value_id": 1,
+                                "english_value": "White",
+                                "hex": "#ffffff",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 2,
+                                "status": 1,
+                                "value": "Hitam",
+                                "equivalent_value_id": 2,
+                                "english_value": "Black",
+                                "hex": "#000000",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 5,
+                                "status": 1,
+                                "value": "Biru",
+                                "equivalent_value_id": 5,
+                                "english_value": "Blue",
+                                "hex": "#1d6cbb",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 6,
+                                "status": 1,
+                                "value": "Biru Muda",
+                                "equivalent_value_id": 6,
+                                "english_value": "Light Blue",
+                                "hex": "#8ad1e8",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 9,
+                                "status": 1,
+                                "value": "Merah",
+                                "equivalent_value_id": 9,
+                                "english_value": "Red",
+                                "hex": "#ff0016",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 11,
+                                "status": 1,
+                                "value": "Merah Muda",
+                                "equivalent_value_id": 11,
+                                "english_value": "Pink",
+                                "hex": "#ffb0b0",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 12,
+                                "status": 1,
+                                "value": "Orange",
+                                "equivalent_value_id": 12,
+                                "english_value": "Orange",
+                                "hex": "#ffa500",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 13,
+                                "status": 1,
+                                "value": "Kuning",
+                                "equivalent_value_id": 13,
+                                "english_value": "Yellow",
+                                "hex": "#ffff00",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 16,
+                                "status": 1,
+                                "value": "Cokelat",
+                                "equivalent_value_id": 16,
+                                "english_value": "Brown",
+                                "hex": "#8b4513",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 18,
+                                "status": 1,
+                                "value": "Hijau",
+                                "equivalent_value_id": 18,
+                                "english_value": "Green",
+                                "hex": "#006400",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 19,
+                                "status": 1,
+                                "value": "Ungu",
+                                "equivalent_value_id": 19,
+                                "english_value": "Purple",
+                                "hex": "#bf00ff",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 218,
+                                "status": 1,
+                                "value": "Abu-abu",
+                                "equivalent_value_id": 218,
+                                "english_value": "Grey",
+                                "hex": "#5d5d5d",
+                                "icon": ""
+                            }
+                        ]
+                    }
+                ],
+                "is_primary": 0
+            },
+            {
+                "variant_id": 29,
+                "has_unit": 1,
+                "identifier": "size",
+                "name": "Ukuran",
+                "status": 1,
+                "units": [
+                    {
+                        "variant_unit_id": 27,
+                        "status": 1,
+                        "unit_name": "Default",
+                        "unit_short_name": "default",
+                        "unit_values": [
+                            {
+                                "variant_unit_value_id": 445,
+                                "status": 1,
+                                "value": "0",
+                                "equivalent_value_id": 0,
+                                "english_value": "",
+                                "hex": "",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 446,
+                                "status": 1,
+                                "value": "2",
+                                "equivalent_value_id": 0,
+                                "english_value": "",
+                                "hex": "",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 447,
+                                "status": 1,
+                                "value": "4",
+                                "equivalent_value_id": 0,
+                                "english_value": "",
+                                "hex": "",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 448,
+                                "status": 1,
+                                "value": "6",
+                                "equivalent_value_id": 0,
+                                "english_value": "",
+                                "hex": "",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 449,
+                                "status": 1,
+                                "value": "8",
+                                "equivalent_value_id": 0,
+                                "english_value": "",
+                                "hex": "",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 450,
+                                "status": 1,
+                                "value": "10",
+                                "equivalent_value_id": 0,
+                                "english_value": "",
+                                "hex": "",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 451,
+                                "status": 1,
+                                "value": "12",
+                                "equivalent_value_id": 0,
+                                "english_value": "",
+                                "hex": "",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 452,
+                                "status": 1,
+                                "value": "14",
+                                "equivalent_value_id": 0,
+                                "english_value": "",
+                                "hex": "",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 453,
+                                "status": 1,
+                                "value": "16",
+                                "equivalent_value_id": 0,
+                                "english_value": "",
+                                "hex": "",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 454,
+                                "status": 1,
+                                "value": "XS",
+                                "equivalent_value_id": 0,
+                                "english_value": "",
+                                "hex": "",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 455,
+                                "status": 1,
+                                "value": "S",
+                                "equivalent_value_id": 0,
+                                "english_value": "",
+                                "hex": "",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 456,
+                                "status": 1,
+                                "value": "M",
+                                "equivalent_value_id": 0,
+                                "english_value": "",
+                                "hex": "",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 457,
+                                "status": 1,
+                                "value": "L",
+                                "equivalent_value_id": 0,
+                                "english_value": "",
+                                "hex": "",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 458,
+                                "status": 1,
+                                "value": "XL",
+                                "equivalent_value_id": 0,
+                                "english_value": "",
+                                "hex": "",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 459,
+                                "status": 1,
+                                "value": "XXL",
+                                "equivalent_value_id": 0,
+                                "english_value": "",
+                                "hex": "",
+                                "icon": ""
+                            },
+                            {
+                                "variant_unit_value_id": 460,
+                                "status": 1,
+                                "value": "All Size",
+                                "equivalent_value_id": 0,
+                                "english_value": "",
+                                "hex": "",
+                                "icon": ""
+                            }
+                        ]
+                    }
+                ],
+                "is_primary": 0
+            }
+        ]
+    }
+}
