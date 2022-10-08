@@ -6,7 +6,7 @@ const port = 5001;                  //Save the port number where your server wil
 
 
 //route files
-const productsRoute = require('./routes/Product');
+const sellerRoute = require('./routes/Seller/Seller');
 
 //database
 require('./configs/mongodb');
@@ -17,7 +17,9 @@ app.set("view engine", "ejs");
 app.use(bodyParser.json());
 
 //Routes
-app.use('/products',productsRoute);
+
+app.use('/seller',sellerRoute);
+
 
 
 //server
