@@ -9,6 +9,8 @@ const SetInactiveProduct = require('./../../data/Seller/Product/SetInactiveProdu
 
 const UpdatePriceOnly = require('./../../data/Seller/Product/UpdatePriceOnly.json');
 const UpdateStockOnly = require('./../../data/Seller/Product/UpdateStock.json');
+const DeleteProduct = require('./../../data/Seller/Product/DeleteProduct.json');
+
 
 const Joi=require('joi');
 const axios = require("axios");
@@ -404,4 +406,52 @@ exports.setStockOnly = async (req,res,next)=> {
     //     res.status(400).send(error);            
     // }
     return res.status(200).send(UpdateStockOnly);    
+}    
+
+
+
+
+
+
+
+exports.deleteProductById = async (req,res,next)=> {
+    const dataQuery=req.query;
+    const dataParams=req.params;
+    const dataBody=req.body;
+
+    const schemaQuery = Joi.object({
+    shop_id: Joi.string().required(),
+    });
+    const errorQuery = schemaQuery.validate(dataQuery); 
+    if (errorQuery.error) return res.status(400).send(errorQuery.error.details[0].message);
+        
+
+
+    
+    const schemaBody = Joi.object({
+        product_id: Joi.array().items(Joi.number())
+        });
+        const errorBody = schemaBody.validate(dataBody); 
+        if (errorBody.error) return res.status(400).send(errorBody.error.details[0].message);    
+    // try {
+    //     var config = {
+    //         method: 'post',
+    //         url: `https://fs.tokopedia.net/v3/products/fs/${dataParams['id']}/delete?shop_id=${dataQuery['shop_id']}`,
+    //         headers: { 
+    //           'Authorization': process.env.APIKEY_TOKOPEDIA,
+    //           'Content-Type': 'application/json'
+    //         },
+    //         data:dataBody
+    //       };
+    //       try {
+    //         const results=await axios(config);
+    //         return res.status(200).send(results.data);    
+    //       } catch (error) {
+    //         console.log(error,'error')
+    //         return res.status(400).send(error.response.data);
+    //       }
+    // } catch (error) {
+    //     res.status(400).send(error);            
+    // }
+    return res.status(200).send(DeleteProduct);    
 }    

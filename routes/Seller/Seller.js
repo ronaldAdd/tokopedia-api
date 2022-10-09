@@ -12,6 +12,7 @@ router.post('/:id/product/active',productController.active);
 router.post('/:id/product/inactive',productController.inActive);
 router.post('/:id/product/price/update',productController.setPriceOnly);
 router.post('/:id/product/stock/update',productController.setStockOnly);
+router.delete('/:id/product',productController.deleteProductById);
 
 
 module.exports = router ;
